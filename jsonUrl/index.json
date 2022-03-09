@@ -98,8 +98,8 @@
                         },
                         {
                             "tips": "网站",
-                            "val": "red-spid.github.io//curriculumVitae/",
-                            "url": "red-spid.github.io//curriculumVitae/"
+                            "val": "https://red-spid.github.io//curriculumVitae/",
+                            "url": "https://red-spid.github.io//curriculumVitae/"
                         }
                     ]
                 ]
@@ -114,7 +114,7 @@
                         {
                             "tips": "",
                             "val": "个人博客 - 使用 vue + vuex + js 构建的个人网站，个人简历、文章及留言版展示",
-                            "url": "red-spid.github.io//curriculumVitae/"
+                            "url": "https://red-spid.github.io//curriculumVitae/"
                         }
                     ]
                 ]
