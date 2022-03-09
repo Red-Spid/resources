@@ -1,175 +1,183 @@
 {
     "technology":["HTML5", "CSS3", "Less", "JS", "Jquery", "Angulary", "Vue", "React"],
 
-    "HTML5":[
-        {
-            "problem":"HTML5 之前的 HTML 版本是？",
-            "select":[
-                "HTML 4.01", "HTML 4", "HTML 4.1", "HTML 4.9"
-            ],
-            "answer":"HTML 4.01"
-        },
-        {
-            "problem":"HTML5 的正确 doctype 是？",
-            "select":[
-                "<!DOCTYPE HTML5>", "<!DOCTYPE html>", "<!DOCTYPE HTML PUBLIC '//W3C//DTD HTML 5.0//EN' 'http://www.w3.org/TR/html5/strict.dtd'>"
-            ],
-            "answer":"<!DOCTYPE html>"
-        },
-        {
-            "problem":"在 HTML5 中，哪个元素用于组合标题元素？",
-            "select":[
-                "<group>", "<header>", "<headings>", "<hgroup>"
-            ],
-            "answer":"<hgroup>"
-        },
-        {
-            "problem":"HTML5 中不再支持下面哪个元素？",
-            "select":[
-                "<q>", "<ins>", "<menu>", "<font>"
-            ],
-            "answer":"<font>"
-        },
-        {
-            "problem":"HTML5 中不再支持下面哪个元素？",
-            "select":[
-                "<cite>", "<acronym>", "<abbr>", "<base>"
-            ],
-            "answer":"<acronym>"
-        },
-        {
-            "problem":"在 HTML5 中，onblur 和 onfocus 是：",
-            "select":[
-                "HTML 元素", "样式属性", "事件属性"
-            ],
-            "answer":"事件属性"
-        },
-        {
-            "problem":"用于播放 HTML5 视频文件的正确 HTML5 元素是：",
-            "select":[
-                "<movie>", "<media>", "<video>"
-            ],
-            "answer":"<video>"
-        },
-        {
-            "problem":"用于播放 HTML5 音频文件的正确 HTML5 元素是：",
-            "select":[
-                "<mp3>", "<audio>", "<sound>"
-            ],
-            "answer":"<audio>"
-        },
-        {
-            "problem":"在 HTML5 中不再支持 <script> 元素的哪个属性？",
-            "select":[
-                "rel", "href", "type", "src"
-            ],
-            "answer":"type"
-        },
-        {
-            "problem":"在 HTML5 中，哪个方法用于获得用户的当前位置？",
-            "select":[
-                "getPosition()", "getCurrentPosition()", "getUserPosition()"
-            ],
-            "answer":"getCurrentPosition()"
-        },
-        {
-            "problem":"新的 HTML5 全局属性，'contenteditable' 用于：",
-            "select":[
-                "规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。", "规定元素内容是否是可编辑的。", "从服务器升级内容。", "返回内容在字符串中首次出现的位置。"
-            ],
-            "answer":"规定元素内容是否是可编辑的"
-        },
-        {
-            "problem":"在 HTML5 中，contextmenu 和 spellcheck 是：",
-            "select":[
-                "HTML 属性", "HTML 元素", "事件属性", "样式属性"
-            ],
-            "answer":"HTML 属性"
-        },
-        {
-            "problem":"在 HTML5 中，您能够直接将 SVG 元素嵌入 HTML 页面中。",
-            "select":[
-                "正确","错误"
-            ],
-            "answer":"正确"
-        },
-        {
-            "problem":"由 SVG 定义的图形是什么格式的？",
-            "select":[
-                "CSS", "HTML", "XML"
-            ],
-            "answer":"XML"
-        },
-        {
-            "problem":"HTML5 中的 <canvas> 元素用于",
-            "select":[
-                "显示数据库记录", "操作 MySQL 中的数据", "绘制图形", "创建可拖动的元素"
-            ],
-            "answer":"绘制图形"
-        },
-        {
-            "problem":"哪个 HTML5 内建对象用于在画布上绘制？",
-            "select":[
-                "getContent", "getContext", "getGraphics", "getCanvas"
-            ],
-            "answer":"绘制图形"
-        },
-        {
-            "problem":"哪个 HTML5 内建对象用于在画布上绘制？",
-            "select":[
-                "getContext", "getContext", "getContext", "getContext"
-            ],
-            "answer":"getContext"
-        },
-        {
-            "problem":"在 HTML5 中，哪个属性用于规定输入字段是必填的？",
-            "select":[
-                "required", "formvalidate", "validate", "placeholder"
-            ],
-            "answer":"required"
-        },
-        {
-            "problem":"哪种输入类型定义滑块控件？",
-            "select":[
-                "search", "controls", "slider", "range"
-            ],
-            "answer":"range"
-        },
-        {
-            "problem":"哪种输入类型用于定义周和年控件（无时区）？",
-            "select":[
-                "date", "week", "year"
-            ],
-            "answer":"week"
-        },
-        {
-            "problem":"哪个 HTML5 元素用于显示已知范围内的标量测量？",
-            "select":[
-                "<gauge>", "<range>", "<measure>", "<meter>"
-            ],
-            "answer":1
-        }
-        
-    ],
-    "CSS3":{
+    "HTML5":{
+        "choiceQuestion":[
+            {
+                "problem":"HTML5 之前的 HTML 版本是？",
+                "select":[
+                    "HTML 4.01", "HTML 4", "HTML 4.1", "HTML 4.9"
+                ],
+                "answer":"HTML 4.01"
+            },
+            {
+                "problem":"HTML5 的正确 doctype 是？",
+                "select":[
+                    "<!DOCTYPE HTML5>", "<!DOCTYPE html>", "<!DOCTYPE HTML PUBLIC '//W3C//DTD HTML 5.0//EN' 'http://www.w3.org/TR/html5/strict.dtd'>"
+                ],
+                "answer":"<!DOCTYPE html>"
+            },
+            {
+                "problem":"在 HTML5 中，哪个元素用于组合标题元素？",
+                "select":[
+                    "<group>", "<header>", "<headings>", "<hgroup>"
+                ],
+                "answer":"<hgroup>"
+            },
+            {
+                "problem":"HTML5 中不再支持下面哪个元素？",
+                "select":[
+                    "<q>", "<ins>", "<menu>", "<font>"
+                ],
+                "answer":"<font>"
+            },
+            {
+                "problem":"HTML5 中不再支持下面哪个元素？",
+                "select":[
+                    "<cite>", "<acronym>", "<abbr>", "<base>"
+                ],
+                "answer":"<acronym>"
+            },
+            {
+                "problem":"在 HTML5 中，onblur 和 onfocus 是：",
+                "select":[
+                    "HTML 元素", "样式属性", "事件属性"
+                ],
+                "answer":"事件属性"
+            },
+            {
+                "problem":"用于播放 HTML5 视频文件的正确 HTML5 元素是：",
+                "select":[
+                    "<movie>", "<media>", "<video>"
+                ],
+                "answer":"<video>"
+            },
+            {
+                "problem":"用于播放 HTML5 音频文件的正确 HTML5 元素是：",
+                "select":[
+                    "<mp3>", "<audio>", "<sound>"
+                ],
+                "answer":"<audio>"
+            },
+            {
+                "problem":"在 HTML5 中不再支持 <script> 元素的哪个属性？",
+                "select":[
+                    "rel", "href", "type", "src"
+                ],
+                "answer":"type"
+            },
+            {
+                "problem":"在 HTML5 中，哪个方法用于获得用户的当前位置？",
+                "select":[
+                    "getPosition()", "getCurrentPosition()", "getUserPosition()"
+                ],
+                "answer":"getCurrentPosition()"
+            },
+            {
+                "problem":"新的 HTML5 全局属性，'contenteditable' 用于：",
+                "select":[
+                    "规定元素的上下文菜单。该菜单会在用户点击右键点击元素时出现。", "规定元素内容是否是可编辑的。", "从服务器升级内容。", "返回内容在字符串中首次出现的位置。"
+                ],
+                "answer":"规定元素内容是否是可编辑的"
+            },
+            {
+                "problem":"在 HTML5 中，contextmenu 和 spellcheck 是：",
+                "select":[
+                    "HTML 属性", "HTML 元素", "事件属性", "样式属性"
+                ],
+                "answer":"HTML 属性"
+            },
+            {
+                "problem":"在 HTML5 中，您能够直接将 SVG 元素嵌入 HTML 页面中。",
+                "select":[
+                    "正确","错误"
+                ],
+                "answer":"正确"
+            },
+            {
+                "problem":"由 SVG 定义的图形是什么格式的？",
+                "select":[
+                    "CSS", "HTML", "XML"
+                ],
+                "answer":"XML"
+            },
+            {
+                "problem":"HTML5 中的 <canvas> 元素用于",
+                "select":[
+                    "显示数据库记录", "操作 MySQL 中的数据", "绘制图形", "创建可拖动的元素"
+                ],
+                "answer":"绘制图形"
+            },
+            {
+                "problem":"哪个 HTML5 内建对象用于在画布上绘制？",
+                "select":[
+                    "getContent", "getContext", "getGraphics", "getCanvas"
+                ],
+                "answer":"绘制图形"
+            },
+            {
+                "problem":"哪个 HTML5 内建对象用于在画布上绘制？",
+                "select":[
+                    "getContext", "getContext", "getContext", "getContext"
+                ],
+                "answer":"getContext"
+            },
+            {
+                "problem":"在 HTML5 中，哪个属性用于规定输入字段是必填的？",
+                "select":[
+                    "required", "formvalidate", "validate", "placeholder"
+                ],
+                "answer":"required"
+            },
+            {
+                "problem":"哪种输入类型定义滑块控件？",
+                "select":[
+                    "search", "controls", "slider", "range"
+                ],
+                "answer":"range"
+            },
+            {
+                "problem":"哪种输入类型用于定义周和年控件（无时区）？",
+                "select":[
+                    "date", "week", "year"
+                ],
+                "answer":"week"
+            },
+            {
+                "problem":"哪个 HTML5 元素用于显示已知范围内的标量测量？",
+                "select":[
+                    "<gauge>", "<range>", "<measure>", "<meter>"
+                ],
+                "answer":1
+            }
+        ]
         
     },
+    "CSS3":{
+        "choiceQuestion":[]
+    },
     "Less":{
+        "choiceQuestion":[]
         
     },
     "Js":{
+        "choiceQuestion":[]
         
     },
     "Jquery":{
+        "choiceQuestion":[]
         
     },
     "Angulary":{
+        "choiceQuestion":[]
         
     },
     "Vue":{
+        "choiceQuestion":[]
         
     },
     "React":{
+        "choiceQuestion":[]
         
     }
 }
