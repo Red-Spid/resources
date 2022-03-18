@@ -1,4 +1,4 @@
-{
+export default{
     "count": 0,
     "origin":"https://red-spid.github.io/resources/",
     "image":"image/",
@@ -19,14 +19,17 @@
     "list": [
         {
             "text": "简历",
+            "name":"resume",
             "url": "/personal/resume"
         },
         {
             "text": "点滴",
+            "name":"dropBYdrop",
             "url": "/personal/dropBYdrop"
         },
         {
             "text": "留言",
+            "name":"comments",
             "url": "/personal/comments"
         }
     ],
