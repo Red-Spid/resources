@@ -1,6 +1,12 @@
 {
     "count": 0,
     "origin":"https://red-spid.github.io/resources/",
+    "PICTURE":"https://red-spid.github.io/resources/image/",
+    "JSON":"https://red-spid.github.io/resources/jsonUrl/",
+    "MP4":"https://red-spid.github.io/resources/mp4/",
+    "NUSIC":"https://red-spid.github.io/resources/music/",
+    "ICON":"https://red-spid.github.io/resources/icon/",
+
     "image":"image/",
     "music":"music/",
     "selfRouting":"https://github.com/Red-Spid",
